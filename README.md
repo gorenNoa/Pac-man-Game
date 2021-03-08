@@ -1,6 +1,8 @@
 # Pac-man-Game
 <!DOCTYPE html>
 <html>
+ <head></head>
+ <body>
 Interactive online Pac-man Game 
 
 <p style="color:coral">#How To Play?</p>
@@ -43,4 +45,5 @@ When push "New Game" button - init the game again.
 2. We added little pacman  -  Once pacman eats the little pacman, you got extra life.
 3. When your current score is equal or higher than half of the score - the pacman change colors
 - Once each of this functionalities happend there is red alert next to the setting.
+</body>
 </html>
