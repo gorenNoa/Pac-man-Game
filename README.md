@@ -1,10 +1,12 @@
-# Pac-man-Game
-Interactive online Pac-man Game 
+# Assignment2
+ 
+#Created by:
+###Noa Gorengot 203269394 && Noy Harari 308157965
 
-🟠Our web address to the Pacman's Game:
+#Our web address to the Pacman's Game:
 https://sise-web-development-environments.github.io/308157965_203269394/
 
-🟠 How To Play?
+#How To Play?
 First, you must have subscriber to the game.
 if you have user name and password push the button *"Login"*.
 if not, you need to register - push the button *"Register"*
@@ -22,7 +24,7 @@ You can also randomize the game's setting - push on button *"Random"*.
 
 When you choose all the setting - push on button *"Submit"* and Start to Play.
 
-🟠Game's Instractions
+#Game's Instractions
 1. You have 5 lifes - when you and one of the monsters in the same cell, one life get down.
 2. When you take "clock" - you got extra 15 seconds.
 3. When you take "Little Pacman" you got extra life.
@@ -33,15 +35,14 @@ When you choose all the setting - push on button *"Submit"* and Start to Play.
  - When you eat all the balls - Game Completed!
  - When the time is up - you will be "Winner!!!" if you got more than 100 points.
 
-🟠Music
+#Music
 You can play and stop the music and the sound effects by the buttons
 
-🟠New Game
+#New Game
 When push "New Game" button - init the game again. 
 
-🟠The functionality and effects in the game
+#The functionality and effects in the game
 1. We added clock - Once pacman eats the clock, you got extra time.
 2. We added little pacman  -  Once pacman eats the little pacman, you got extra life.
 3. When your current score is equal or higher than half of the score - the pacman change colors
-- Once each of this functionalities happend there is red alert next to the setting.
-
+- Once each of this functionalities happend there is red alert next to the setting. 

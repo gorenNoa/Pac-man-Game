@@ -1,0 +1,357 @@
+.navbar {
+  position: relative;
+  min-height: 30px;
+  margin-bottom: 40px;
+  border: 1px solid transparent;
+}
+.navbar-inverse {
+  /*background-color:#42f5ef;*/
+  border-color: #080808;
+}
+.navbar-fixed-top {
+  top: 30%;
+  border-width: 0 0 1px;
+}
+.container-fluid {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+  position: relative;
+  min-height: 45px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.topnav ul {
+  position:  relative;
+  list-style-type: none;
+  min-height: 35px;
+  margin: 0;
+  padding: 0;
+  /* background-color: #42f5ef; */
+}
+.topnav li {
+  float: left;
+  min-height: 20px;
+}
+.topnav li a {
+  display: block;
+  color: #3c3cef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:black;
+  background-blend-mode: lighten;
+  float: left;
+  font-family: 'Pixeled';
+  /*font-family: 'Alef', serif;*/
+  font-size: 9px;
+  font-weight: bold;
+  min-height: 3px;
+}
+
+.registerForm{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-family: 'Alef', serif;
+  font-size: 14px;
+  color: white;
+}
+
+
+.btnR {
+  position: fixed;
+  margin-top: 180px;
+  margin-left: 20%;
+  /*margin-right: auto;*/
+  /* margin-left: 200px;
+  margin-right: 100px; */
+  background-color: black;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-color: #3c3cef;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.btnL {
+  position: fixed;
+  margin-top: 180px;
+  /* margin-left: 270px;
+   margin-right: 100px;*/
+  margin-left: 5%;
+  margin-right: auto;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-color: #3c3cef;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.sectionWelcome{
+  position: fixed;
+  top: 10%;
+  left: 35%;
+}
+.sectionHeader{
+  /*position: fixed;*/
+  top: -20%;
+}
+@font-face {
+  font-family: 'Alef';
+  font-weight: 400;
+  font-style: normal;
+  src: url('https://s3-eu-west-1.amazonaws.com/fonts-project/fonts/Alef/400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pixeled';
+  font-weight: 400;
+  font-style: normal;
+  src: url('Pixeled.ttf');
+}
+
+.registerSubmit{
+  position: inherit;
+  margin-left: 100px;
+  margin-right: 150px;
+  border-color: #3c3cef;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 11px;
+  text-align: center;
+}
+
+body{
+  background-image: url("image/welcom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: 90px;
+  width: 30%;
+}
+
+.settingClass{
+  display: block;
+  font-family: 'Alef', serif;
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+}
+/* The Modal (background) */
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  /*left: 0;*/
+  /*top: 0;*/
+  text-align: left;
+  /*width: -moz-fit-content;*/
+  /*width: fit-content;*/
+  height: fit-content;
+  width: 100%; /* Full width */
+  /*height: 100%; !* Full height *!*/
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  /*background-color: #fefefe;*/
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #3c3cef;
+  width: 50%;
+  height: 70%;
+  background-color: rgba(255,255,255,0.6);
+  background-image: url("image/g.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo{
+  position: fixed;
+  display: block;
+  width:27%;
+  margin-left: auto;
+  align-self: center;
+}
+
+.header {
+  /*was padding: auto; but was error so i changed it to initial*/
+  padding: initial;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.loginClass{
+  display: block;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 50%;
+}
+
+
+.loginSubmit{
+  position: fixed;
+  /* margin-left: 30px; */
+  background-color: black;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-color: #3c3cef;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Pixeled';
+}
+
+.footerClass{
+  position: fixed;
+  min-height: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:   black;
+  color: #3c3cef;
+  min-height: auto;
+  font-size: 11px;
+  font-weight: bolder;
+  font-family: 'Alef', serif;
+}
+
+.logoClass{
+  align-items: center;
+  position: absolute;
+  min-height: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color:  black;
+  color: white;
+  margin-left: auto;
+  margin-right: -550px;
+  /* was problem with padding-top: 10; so i added px -> maybe need %*/
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Alef', serif;
+  font-size: 12px;
+}
+
+.headerInfo{
+  padding-top: 20px;
+  text-align: center;
+}
+.ourInfo{
+  position: fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: -550px;
+  /* was problem with padding-top: 10; so i added px -> maybe need %*/
+  padding-top: 10px;
+  text-align: center
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  border-color: #3c3cef;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-color: #3c3cef;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  border-color: #3c3cef;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  border-color: #3c3cef;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  color: #3c3cef;
+}
+h1{
+  text-align: left;
+  font-size: 90%;
+  font-family: Pixeled;
+  /*color: #3c3cef;*/
+  color: rgb(202, 221, 36);
+}
+
+.alert {
+  display: none;
+  padding: 15px;
+  background-color: #f44336;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+h3{
+  font-family: Alef;
+  font-size: small;
+  color: rgb(202, 221, 36);
+}
+h4{
+  text-align: left;
+  font-size: 65%;
+  font-family: Pixeled;
+  color: #3c3cef;
+  float: left;
+}
+.clearFix{
+  overflow: auto;
+}
