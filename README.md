@@ -1,7 +1,7 @@
 # Pac-man-Game
 Interactive online Pac-man Game 
 
-<p style="color:#FFA500">#How To Play?</p>
+<p style="color:coral;">#How To Play?</p>
 First, you must have subscriber to the game.
 if you have user name and password push the button *"Login"*.
 if not, you need to register - push the button *"Register"*
@@ -19,7 +19,7 @@ You can also randomize the game's setting - push on button *"Random"*.
 
 When you choose all the setting - push on button *"Submit"* and Start to Play.
 
-<p style="color:#FFA500">#Game's Instractions</p>
+<p style="color:coral;">#Game's Instractions</p>
 1. You have 5 lifes - when you and one of the monsters in the same cell, one life get down.
 2. When you take "clock" - you got extra 15 seconds.
 3. When you take "Little Pacman" you got extra life.
@@ -30,13 +30,13 @@ When you choose all the setting - push on button *"Submit"* and Start to Play.
  - When you eat all the balls - Game Completed!
  - When the time is up - you will be "Winner!!!" if you got more than 100 points.
 
-<p style="color:#FFA500">#Music</p>
+<p style="color:coral;">#Music</p>
 You can play and stop the music and the sound effects by the buttons
 
-<p style="color:#FFA500">#New Game</p>
+<p style="color:coral;">#New Game</p>
 When push "New Game" button - init the game again. 
 
-<p style="color:#FFA500">#The functionality and effects in the game</p>
+<p style="color:coral;">#The functionality and effects in the game</p>
 1. We added clock - Once pacman eats the clock, you got extra time.
 2. We added little pacman  -  Once pacman eats the little pacman, you got extra life.
 3. When your current score is equal or higher than half of the score - the pacman change colors
