@@ -5,7 +5,7 @@
  <body>
 Interactive online Pac-man Game 
 
-<p style="color:coral">#How To Play?</p>
+<p style="color:red">#How To Play?</p>
 First, you must have subscriber to the game.
 if you have user name and password push the button *"Login"*.
 if not, you need to register - push the button *"Register"*
